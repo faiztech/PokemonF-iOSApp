@@ -15,6 +15,7 @@
 		73EA54201F83D93B0003E880 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73EA541E1F83D93B0003E880 /* LaunchScreen.storyboard */; };
 		73EA54291F83DDBC0003E880 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73EA54281F83DDB10003E880 /* MapKit.framework */; };
 		73EA542B1F83FAC50003E880 /* PokeDexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EA542A1F83FAC50003E880 /* PokeDexViewController.swift */; };
+		73EA542D1F83FC810003E880 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EA542C1F83FC810003E880 /* CoreDataHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		73EA54211F83D93B0003E880 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73EA54281F83DDB10003E880 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		73EA542A1F83FAC50003E880 /* PokeDexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeDexViewController.swift; sourceTree = "<group>"; };
+		73EA542C1F83FC810003E880 /* CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				73EA54121F83D93B0003E880 /* AppDelegate.swift */,
 				73EA54141F83D93B0003E880 /* ViewController.swift */,
 				73EA542A1F83FAC50003E880 /* PokeDexViewController.swift */,
+				73EA542C1F83FC810003E880 /* CoreDataHelper.swift */,
 				73EA54161F83D93B0003E880 /* Main.storyboard */,
 				73EA541C1F83D93B0003E880 /* Assets.xcassets */,
 				73EA541E1F83D93B0003E880 /* LaunchScreen.storyboard */,
@@ -153,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73EA542D1F83FC810003E880 /* CoreDataHelper.swift in Sources */,
 				73EA541B1F83D93B0003E880 /* Pokemon_F.xcdatamodeld in Sources */,
 				73EA542B1F83FAC50003E880 /* PokeDexViewController.swift in Sources */,
 				73EA54151F83D93B0003E880 /* ViewController.swift in Sources */,
